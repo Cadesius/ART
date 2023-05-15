@@ -9,7 +9,7 @@ ART is a small Batch script designed to make iteratively (re)naming large number
 - Iteratively names each object, with an integer appended to an user defined reference code.
 - Allows users to either overwrite or preserve the original filename.
 - Puts a focus on simplicity and ease of use.
-- Highly portable and ultra-lightweight, clocking in at under 200KB.
+- Highly portable and ultra-lightweight, clocking in at under 100KB.
 
 ## Configuration
 
@@ -69,3 +69,26 @@ Enter option:
 - There is currently no way to rename both files and folders at the same time.
 - Objects are only renamed in the directory chosen, and this does not extend to sub-directories.
     - *For those interested, recursive renaming is not possible, as renaming a folder obviously changes the path of all subfolders and files within it. While I'm sure there's a way to reverse scan the hierarchy, this is broadly outside the scope of this project.*
+
+### Choosing a Directory
+
+<details>
+
+***<summary>Click here to preview directory selection screen</summary>***
+
+```
+   __         ___    _____
+  / /\       | |_)    | |
+ /_/--\      |_| \    |_|
+ ARCHIVIST'S RENAMING TOOL
+
+FILE RENAMING
+
+Input the directory containing the objects that are to be renamed (Copy and paste out of Windows Explorer):
+```
+
+</details>
+
+- As mentioned directly within the program, the easiest way to reference a specific directory is to simply navigate to it within Windows Explorer, and then copy and paste it from the address bar into ART.
+- ART will check to see if the directory exists before proceeding. If this is not the case, you will be prompted to re-enter a valid directory.
+- The program will work with both local directories and those on shared network drives (ie. Samba shares), although network administrators may override this functionality.
