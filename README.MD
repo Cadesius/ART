@@ -21,10 +21,18 @@ ART is a small Batch script designed to make iteratively (re)naming large number
 
 Here, we'll go over each step of the program, covering usage and limitations, as well as anything else you might want to bear in mind.
 
+You can run the program by either downloading the latest release executable, or by downloading the repository and running 'ART.BAT'.
+
 ### Main Menu
 
 - The 'Main Menu' is what you'll see when you launch ART, and acts as a portal to each of the program's functions.
+- Simply press the alphabetic key that corresponds with each option to select it.
 - A brief explanation of each option:
     - 'A. Iterative file renaming'
-        - Use this for renaming files.
+        - Use this for (re)naming files.
     - 'B. Iterative folder renaming'
+        - Use this for (re)naming folders.
+    - 'C. Print help documentation'
+        - Use this to print this documentation in an interactive format.
+    - 'D - Quit the program'
+        - Exits the program. Of note, ART does not save any data betwenn each instance of the program.
