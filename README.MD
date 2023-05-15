@@ -276,7 +276,7 @@ Basically, when and when not to use ART for object (re)naming, and some cautiona
         |   L A.AZY.1.2
         |   L ...
         |
-        L A.AZY.1.10.99
+        L A.AZY.1.10-99
         |   |
         |   L A.AZY.1.10
         |   L A.AZY.1.11
@@ -290,3 +290,14 @@ Basically, when and when not to use ART for object (re)naming, and some cautiona
         ```
 
     </details>
+
+## Summary
+
+- To conclude:
+    - ART is powerful, when used correctly, and has probably saved me hundreds of hours over the past few months.
+    - However, when used incorrectly, you can end up making rather a lot of work for yourself, untangling incorrectly named objects, especially if you don't have backups of the original objects.
+    - This documentation sheet is about four times as long as it needs to be.
+    - Please do feel free to submit bug reports if you find anything strange, suggest alterations to the repository and otherwise mutilate the code however you like!
+    - If you end up using this, and ever meet me in the real world, you can buy me a coffee :)
+
+`- Cade, May 2023`
