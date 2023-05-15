@@ -250,7 +250,7 @@ Basically, when and when not to use ART for object (re)naming, and some cautiona
 
         ***<summary>Click here to read a little more about why this is...</summary>***
 
-        - You may find it easier to think about the way computer see numbers if you think about the way we order alphabetised lists.
+        - You may find it easier to think about the way computers see numbers if you think about the way we order alphabetised lists.
         - As an example, it seems logical to us that you should sort the given list as follows:
         - `[A,B,AB,BA] -> [A,AB,B,BA]`
         - Well, if you substitute `'A'` for `'1'` and `'B'` for `'2'`, you would get the following:
