@@ -160,8 +160,8 @@ Would you like to preserve the original object names? If yes, the original names
 
 - As stated within the program, this stage gives you the option of either discarding or preserving the original object's name.
 - If you choose to preserve the original name, it will be placed in brackets after the reference code in the new name.
-- For instance, if you're renaming a file titled `'DSC1023.JPG'`, and you set the catalogue reference to be `'A/AZY/1/2'`, choosing to preserve to the original name will result in the following: `'A.AZY.1.2 (DSC1023).JPG'`.
-- However, if you were to discard the original name, the new name would simply be `'A.AZY.1.2.JPG'`
+- For instance, if you're renaming a file titled `'DSC1023.JPG'`, you set the catalogue reference to be `'A/AZY/2'` and the starting iteration to be `'1'`, choosing to preserve to the original name will result in the following: `'A.AZY.2.1 (DSC1023).JPG'`.
+- However, if you were to discard the original name, the new name would simply be `'A.AZY.2.1.JPG'`
 
 ### Confirmation
 
