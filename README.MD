@@ -1,5 +1,5 @@
 # ART
-## The Archivist's Renaming Tool
+### The Archivist's Renaming Tool
 
 ART is a small Batch script designed to make iteratively (re)naming large numbers of digital objects as simple as possible.
 
