@@ -14,9 +14,9 @@ CECHO {0D}Please select an option:{\n}{#}
 ECHO:
 ECHO A. Iterative file renaming
 ECHO B. Iterative folder renaming
-ECHO C. Preservica folder appended naming
-ECHO D. Print help documentation (Recommended for first time users!)
-ECHO E. Quit the program
+@REM ECHO C. Preservica folder appended naming
+ECHO C. Print help documentation (Recommended for first time users!)
+ECHO D. Quit the program
 ECHO:
 
 @REM Allow user to select menu option
@@ -24,11 +24,11 @@ ECHO:
 CHOICE /C abcde /N /M "Enter option: "
 IF %ERRORLEVEL% EQU 1 ECHO: && SET Type=FILE && GOTO :NAMING
 IF %ERRORLEVEL% EQU 2 ECHO: && SET Type=FOLDER && GOTO :NAMING
-IF %ERRORLEVEL% EQU 3 ECHO: && SET Type=APPEND && GOTO :FOLDER_APPEND
-IF %ERRORLEVEL% EQU 4 (
+@REM IF %ERRORLEVEL% EQU 3 ECHO: && SET Type=APPEND && GOTO :FOLDER_APPEND
+IF %ERRORLEVEL% EQU 3 (
     ECHO: && CALL HELP.BAT
     ECHO: && ECHO: && GOTO :OPENING_MENU)
-IF %ERRORLEVEL% EQU 5 GOTO :EXIT
+IF %ERRORLEVEL% EQU 4 GOTO :EXIT
 
 @REM Section for renaming files
 :NAMING
@@ -90,20 +90,20 @@ IF %ERRORLEVEL% EQU 2 (
 
 GOTO :EXIT_MENU
 
-:FOLDER_APPEND
+@REM :FOLDER_APPEND
 
-CECHO {05}FOLDER SUFFIX APPENDMENT{\n}{#} && ECHO:
+@REM CECHO {05}FOLDER SUFFIX APPENDMENT{\n}{#} && ECHO:
 
-GOTO :CHOOSE_DIRECTORY
+@REM GOTO :CHOOSE_DIRECTORY
 
-:PS_FOLDER_APPEND
+@REM :PS_FOLDER_APPEND
 
-ECHO: && <NUL SET /P "=Press any key to execute the append process..."
-PAUSE >NUL
-powershell "cd '%Location%'; Get-ChildItem * -Directory | %%{Rename-Item $_ -NewName ($_.BaseName + '.DEL')}" && ECHO: && ECHO:
-CECHO {0A}Append process completed!{\n}{\n}{#}
+@REM ECHO: && <NUL SET /P "=Press any key to execute the append process..."
+@REM PAUSE >NUL
+@REM powershell "cd '%Location%'; Get-ChildItem * -Directory | %%{Rename-Item $_ -NewName ($_.BaseName + '.DEL')}" && ECHO: && ECHO:
+@REM CECHO {0A}Append process completed!{\n}{\n}{#}
 
-GOTO :EXIT_MENU
+@REM GOTO :EXIT_MENU
 
 @REM Print exit menu
 

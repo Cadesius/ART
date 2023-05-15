@@ -24,4 +24,7 @@ Here, we'll go over each step of the program, covering usage and limitations, as
 ### Main Menu
 
 - The 'Main Menu' is what you'll see when you launch ART, and acts as a portal to each of the program's functions.
-- Test
+- A brief explanation of each option:
+    - 'A. Iterative file renaming'
+        - Use this for renaming files.
+    - 'B. Iterative folder renaming'
