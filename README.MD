@@ -16,6 +16,7 @@ ART is a small Batch script designed to make iteratively (re)naming large number
 - ART's configuration options are virtually non-existent, mostly to maintain ease of use. All parameters are set as part of the program's execution.
 - If you do want to change anything, download the source code and have a play with 'ART.BAT'. There's definitely room for a few tweaks and adjustments, if you can get past the odd codebase anyway...
 - If you want considerably more control, I'd recommend learning the basics of Powershell and more specifically the 'Rename-Item' command, which will allow you to do everything that ART can, but with many more manual options.
+- If you come up with useful alterations, please do fork the project! While I'm keeping this as simple as possible, an expanded version with more options would surely be welcomed by the community.
 
 ## Usage
 
@@ -27,7 +28,7 @@ You can run the program by either downloading the latest release executable, or 
 
 <details>
 
-*<summary>Preview menu screen</summary>*
+***<summary>Click here to preview menu screen</summary>***
 
 ```
    __         ___    _____
