@@ -34,5 +34,5 @@ You can run the program by either downloading the latest release executable, or 
         - Use this for (re)naming folders.
     - 'C. Print help documentation'
         - Use this to print this documentation in an interactive format.
-    - 'D - Quit the program'
-        - Exits the program. Of note, ART does not save any data betwenn each instance of the program.
+    - 'D. Quit the program'
+        - Exits the program. Of note, ART does not save any data between each instance of the program. Once it's closed, any data stored will be lost.
