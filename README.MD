@@ -213,3 +213,80 @@ B. Quit the program
 - Once the renaming process is completed (should be virtually instant, except when renaming large numbers of files over the network), you should see a confirmation message.
 - It is always worth double checking the objects to make sure that the naming is completed according to your expectations.
 - From here, you will be presented with the `'Exit Menu'`, which will allow you to either return to the main menu, or exit the program.
+
+## Usage Conditions
+
+Basically, when and when not to use ART for object (re)naming, and some cautionary measures and caveats to its usage.
+
+### When to Use
+
+- When you have a large number of digital objects that you want to be sequentially named and numbered in accordance with a pre-existing catalogue reference code.
+- This does depend on the objects already being sorted into the correct order, or being in such a situation that the order of numbering does not matter.
+
+### When Not to Use
+
+- When you have a small number of objects to rename (approximately, less than five).
+    - User trials and testing have revealed that for most users, manually renaming small groups of objects is quicker than navigating the ART user interface.
+    - For this sort of scenario, it is often quicker to simply copy and paste the reference code stem between objects, manually appending an index number.
+    - However, your mileage may vary, depending on your preferred workflow and biases to certain methods.
+- When you have a large number of objects that should be ordered, but aren't.
+    - ART isn't psychic. He can't magically intuit an order that doesn't already exist.
+
+### Cautions
+
+- As mentioned in the `'Confirmation'` section, once you decide to execute the renaming process, you cannot revert to the original names.
+    - **As such, it is highly recommended that you create backups of any objects you intend to rename with ART.**
+- Additionally, if you leave the `'Directory'` field blank, ART will attempt to rename whatever objects are contained within the same folder as the executable. For this reason, it is recommended that you place the ART executable into a folder on its own.
+    - e.g. `'C:\Users\User\Documents\Software\ART'`
+    - However, this can also be used to skip the directory stage, however, it is possible that ART will try to rename its own executable - more testing required.
+
+### Caveats
+
+- There is one major caveat: ART reads files in machine numbering.
+    - For example, if you have objects numbered 1 - 15, without leading zeros for the first 9, a computer will ascertain the following order:
+    - `[1,10,11,12,13,14,15,2,3,4,5,6,7,8,9]`
+    - This is because, to a computer, everything beginning with a one must come before everything beginning with any other positive integer (e.g. two, three, four etc.)
+    - <details>
+
+        ***<summary>Click here to read a little more about why this is...</summary>***
+
+        - You may find it easier to think about the way computer see numbers if you think about the way we order alphabetised lists.
+        - As an example, it seems logical to us that you should sort the given list as follows:
+        - `[A,B,AB,BA] -> [A,AB,B,BA]`
+        - Well, if you substitute `'A'` for `'1'` and `'B'` for `'2'`, you would get the following:
+        - `[1,2,12,21] -> [1,12,2,21]`
+        - This is basically how a computer thinks about numerical ordering, treating each digit as an individual number to be sorted by, rather than as part of a compound number.
+        - In you're interested in further exploring this, have a look at the following Stack Exhange post: <href>https://softwareengineering.stackexchange.com/questions/127639/why-do-some-sorting-methods-sort-by-1-10-2-3</href>
+
+    </details>
+
+    - The 'simple' fix to this is to preface the first nine numbers with leading zeros, such that they become `[01,02,03]` etc. This can be done manually with minial effort, and if you have a folder containing eighty objects, it's still much quicker to manually add nine zeros than it is to go through and rename every object one-by-one.
+    - However, if you are working with a number of objects greater than 99, it is advisable to split them into two folders, one with every object with number less than and equal to 99, and one with every number greater than 99. Then, use the first iteration field to start the numbering for the latter folder at index 100. Once renaming is complete, simply move the objects back into the same folder, and they should all be in the correct order.
+    - Logically, the same applies for groups of over 999 objects, and each power of ten thereafter. Simply split the objects into folders for each power of ten, so you might have the following file structure:
+    - <details>
+
+        ***<summary>Click here to view sample hierarchy</summary>***
+
+        ```
+        A.AZY.1
+        |
+        L A.AZY.1.1-9
+        |   |
+        |   L A.AZY.1.1
+        |   L A.AZY.1.2
+        |   L ...
+        |
+        L A.AZY.1.10.99
+        |   |
+        |   L A.AZY.1.10
+        |   L A.AZY.1.11
+        |   L ...
+        |
+        L A.AZY.1.100-999
+            |
+            L A.AZY.1.101
+            L A.AZY.1.102
+            L ...
+        ```
+
+    </details>
