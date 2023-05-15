@@ -25,6 +25,10 @@ You can run the program by either downloading the latest release executable, or 
 
 ### Main Menu
 
+<details>
+
+*<summary>Preview menu screen</summary>*
+
 ```
    __         ___    _____
   / /\       | |_)    | |
@@ -42,6 +46,8 @@ E. Quit the program
 
 Enter option:
 ```
+
+</details>
 
 - The 'Main Menu' is what you'll see when you launch ART, and acts as a portal to each of the program's functions.
 - Simply press the alphabetic key that corresponds with each option to select it.
