@@ -256,7 +256,7 @@ Basically, when and when not to use ART for object (re)naming, and some cautiona
         - Well, if you substitute `'A'` for `'1'` and `'B'` for `'2'`, you would get the following:
         - `[1,2,12,21] -> [1,12,2,21]`
         - This is basically how a computer thinks about numerical ordering, treating each digit as an individual number to be sorted by, rather than as part of a compound number.
-        - In you're interested in further exploring this, have a look at the following Stack Exhange post: <href>https://softwareengineering.stackexchange.com/questions/127639/why-do-some-sorting-methods-sort-by-1-10-2-3</href>
+        - In you're interested in further exploring this, have a look at the following Stack Exhange post: <href>https://softwareengineering.stackexchange.com/questions/127639/why-do-some-sorting-methods-sort-by-1-10-2-3</href> and the [Wikipedia article on Lexicographic Ordering](https://en.wikipedia.org/wiki/Lexicographic_order)
 
     </details>
 
