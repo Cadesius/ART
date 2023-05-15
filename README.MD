@@ -41,9 +41,8 @@ Please select an option:
 
 A. Iterative file renaming
 B. Iterative folder renaming
-C. Preservica folder appended naming
-D. Print help documentation (Recommended for first time users!)
-E. Quit the program
+C. Print help documentation (Recommended for first time users!)
+D. Quit the program
 
 Enter option:
 ```

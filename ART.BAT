@@ -21,7 +21,7 @@ ECHO:
 
 @REM Allow user to select menu option
 
-CHOICE /C abcde /N /M "Enter option: "
+CHOICE /C abcd /N /M "Enter option: "
 IF %ERRORLEVEL% EQU 1 ECHO: && SET Type=FILE && GOTO :NAMING
 IF %ERRORLEVEL% EQU 2 ECHO: && SET Type=FOLDER && GOTO :NAMING
 @REM IF %ERRORLEVEL% EQU 3 ECHO: && SET Type=APPEND && GOTO :FOLDER_APPEND
