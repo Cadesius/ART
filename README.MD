@@ -294,6 +294,8 @@ Basically, when and when not to use ART for object (re)naming, and some cautiona
 
     </details>
 
+    - The good news is that most images pulled from cameras, which is a good chunk of what I personally deal with in terms of digital objects, are numbered with leading zeros. This means that they can generally be renamed to match a catalogue reference as soon as you pull them off the camera and onto a PC.
+
 ## Summary
 
 - To conclude:
@@ -301,6 +303,6 @@ Basically, when and when not to use ART for object (re)naming, and some cautiona
     - However, when used incorrectly, you can end up making rather a lot of work for yourself, untangling incorrectly named objects, especially if you don't have backups of the original objects.
     - This documentation sheet is about four times as long as it needs to be.
     - Please do feel free to submit bug reports if you find anything strange, suggest alterations to the repository and otherwise mutilate the code however you like!
-    - If you end up using this, and ever meet me in the real world, you can buy me a coffee :)
+    - If you end up using this, and ever meet me in the real world, feel free to buy me a coffee :)
 
 `- Cade, May 2023`
