@@ -137,7 +137,7 @@ Input the number from which you want to start iterative file naming (i.e. the fi
 
 - This is fairly self-explanatory, just input the first number in the numbering sequence.
 - This can be useful if you're working on a series of objects, and need to number them in two seperate groups.
-- Obviously, only integer numbers can be entered at this stage, and the program will reject any other data types entered.\
+- Obviously, only integer numbers can be entered at this stage, and the program will reject any other data types entered.
 
 ### Preserving Original Object Names
 
