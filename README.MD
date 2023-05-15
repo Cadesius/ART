@@ -24,3 +24,4 @@ Here, we'll go over each step of the program, covering usage and limitations, as
 ### Main Menu
 
 - The 'Main Menu' is what you'll see when you launch ART, and acts as a portal to each of the program's functions.
+- Test
