@@ -274,16 +274,19 @@ Basically, when and when not to use ART for object (re)naming, and some cautiona
         |   |
         |   L A.AZY.1.1
         |   L A.AZY.1.2
+        |   L A.AZY.1.3
         |   L ...
         |
         L A.AZY.1.10-99
         |   |
         |   L A.AZY.1.10
         |   L A.AZY.1.11
+        |   L A.AZY.1.12
         |   L ...
         |
         L A.AZY.1.100-999
             |
+            L A.AZY.1.100
             L A.AZY.1.101
             L A.AZY.1.102
             L ...
