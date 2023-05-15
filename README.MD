@@ -25,6 +25,24 @@ You can run the program by either downloading the latest release executable, or 
 
 ### Main Menu
 
+```
+   __         ___    _____
+  / /\       | |_)    | |
+ /_/--\      |_| \    |_|
+ ARCHIVIST'S RENAMING TOOL
+
+MAIN MENU
+Please select an option:
+
+A. Iterative file renaming
+B. Iterative folder renaming
+C. Preservica folder appended naming
+D. Print help documentation (Recommended for first time users!)
+E. Quit the program
+
+Enter option:
+```
+
 - The 'Main Menu' is what you'll see when you launch ART, and acts as a portal to each of the program's functions.
 - Simply press the alphabetic key that corresponds with each option to select it.
 - A brief explanation of each option:
