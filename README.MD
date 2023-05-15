@@ -261,7 +261,7 @@ Basically, when and when not to use ART for object (re)naming, and some cautiona
     </details>
 
     - The 'simple' fix to this is to preface the first nine numbers with leading zeros, such that they become `[01,02,03]` etc. This can be done manually with minimal effort, and if you have a folder containing eighty objects, it's still much quicker to manually add nine zeros than it is to go through and rename every object one-by-one.
-    - However, if you are working with a number of objects greater than 99, it is advisable to split them into two folders, one with every object with number less than and equal to 99, and one with every number greater than 99. Then, use the first iteration field to start the numbering for the latter folder at index 100. Once renaming is complete, simply move the objects back into the same folder, and they should all be in the correct order.
+    - However, if you are working with a number of objects greater than 99, it is advisable to split them into two folders, one for every object with number less than and equal to 99, and one for every number greater than 99. Then, use the first iteration field to start the numbering for the latter folder at index 100. Once renaming is complete, simply move the objects back into the same folder, and they should all be in the correct order.
     - Logically, the same applies for groups of over 999 objects, and each power of ten thereafter. Simply split the objects into folders for each power of ten, so you might have the following file structure:
     - <details>
 
