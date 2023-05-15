@@ -35,4 +35,13 @@ You can run the program by either downloading the latest release executable, or 
     - 'C. Print help documentation'
         - Use this to print this documentation in an interactive format.
     - 'D. Quit the program'
-        - Exits the program. Of note, ART does not save any data between each instance of the program. Once it's closed, any data stored will be lost.
+        - Exits the program. Of note; ART does not save any data between each instance of the program. Once it's closed, any data stored will be lost.
+- Below is a more detailed look at the workflow for the iterative naming process.
+
+### Files and Folders
+
+- The first option given to the user is between renaming files and folders.
+- It's useful to make the distinction, since the process is slightly different for each one.
+- There is currently no way to rename both files and folders at the same time.
+- Objects are only renamed in the directory chosen, and this does not extend to sub-directories.
+    - *For those interested, recursive renaming is not possible, as renaming a folder obviously changes the path of all subfolders and files within it. While I'm sure there's a way to reverse scan the hierarchy, this is broadly outside the scope of this project.*
